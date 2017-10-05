@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+	
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SleazyGomokuController">
+	<top>
+	
+	<Label  text="Player X" fx:id="playerLabel" />
+	
+	</top>
+	<center>
+		<GridPane fx:id="buttonsPane" styleClass="buttons" >
+
+		</GridPane>
+	
+	
+	</center>
+
+
+</BorderPane>
